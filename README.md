@@ -14,6 +14,17 @@
 
 ```bash
 bash setup.sh
+```
+
+Check whether buildx is enabled yet.
+
+```bash
+docker buildx version
+```
+
+If not, you might need to run each command in setup.sh manually
+
+```bash
 bash build.sh
 ```
 
